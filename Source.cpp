@@ -103,6 +103,8 @@ int CallFunction()
     NtAddAtomSSN = Func[4];
 
     printf("New syscall stub -> %x\n", NtAddAtomSSN);
+
+	// should probaly swap the stub back
     return 5;
 }
 
